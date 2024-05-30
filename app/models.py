@@ -19,5 +19,5 @@ class Movie(Base):
 
 class Genre(Base):
     __tablename__ = 'genres'
-    id:     Mapped[int] = mapped_column(primary_key=True)
-    name:   Mapped[str] = mapped_column(db.String(255))
+    id:   Mapped[int] = mapped_column(primary_key=True)
+    name: Mapped[str] = mapped_column(db.String(255))
